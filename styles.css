@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: nunito,sans-serif;
+}
+.parentContainer{
+  display: grid;
+  grid-template-columns:repeat(2,40% 60%);
+}
+.blue-box{
+  background-color: aquamarine;
+  padding:20px;
+  text-align: center;
+  font-size:15px;
+}
+img{
+  width:100px;
+  height:100px;
+  border-radius:200px;
+}
+.name,.designation{
+  font-size:15px;
+}
+.black-box{
+  background-color:rgb(102, 102, 102);
+  padding:20px;
+  line-height: 25px;
+}
+.contact{
+  margin:15px 10px;
+}
+.education{
+  margin:15px 10px;
+}
+.fullInfo{
+  margin:15px;
+  padding:10px;
+}
+.Exp{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills{
+  margin:15px;
+}
+strong{
+  display:flex;
+  flex-wrap: wrap;
+}
+strong li{
+  margin:20px;
+}
